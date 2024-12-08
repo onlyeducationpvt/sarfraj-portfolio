@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import cryptoStream from "@/public/crypto-stream.png";
-import digiShop from "@/public/digishop.png";
-import reviewHub from "@/public/review-hub.png";
+import onlyeducation from"../public/onlyeducation.png"
+import onlyengineering from "../public/only engineering.png"
+import mba from "../public/mba.png"
 
 export const links = [
   {
@@ -63,25 +63,25 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "Crypto Stream",
+    title: "Only Education",
     description:
-      "Developed a real-time cryptocurrency tracking application using React and Material UI.",
-    tags: ["React", "Material UI", "Framer", "Chartjs"],
-    imageUrl: cryptoStream,
+      "Find detailed college info and comparisons on OnlyEducation.in for smarter education choices.",
+    tags: ["Next Js", "Shadcn", "Tailwind", "TypeScript", "strapi", "REST API"],
+    imageUrl: onlyeducation,
   },
   {
-    title: "Digi Shop",
+    title: "Only Engineering",
     description:
-      "Designed and built an ecommerce web application from front to back utilizing MongoDB, Express, React, Node.js (MERN)",
-    tags: ["React", "Next.js",  "Redux", "Tailwind", "Express", "MongoDB" ],
-    imageUrl: digiShop,
+"Discover top engineering updates and insights for smarter career decisions.",
+    tags: ["HTML", "CSS",  "SCSS", "javascript", "Apps Script" ],
+    imageUrl: onlyengineering,
   },
   {
-    title: "Review Hub",
+    title: "MBA CET",
     description:
-      "Created a platform for users to share movie and web series reviews with upload and OTP authentication functionality.",
-    tags: ["React", "Firebase", "Tailwind"],
-    imageUrl: reviewHub,
+"mbacet.in a lead generation platform simplifying MBA admissions with personalized guidance.",
+    tags: ["HTML", "CSS",  "SCSS", "javascript", "Apps Script" ],
+    imageUrl: mba,
   },
 ] as const;
 
@@ -96,5 +96,7 @@ export const skillsData = [
   "Tailwind",
   "Shadcn",
   "strapi",
-  "REST API"
+  "REST API",
+  "Apps Script",
+  "SCSS",
 ] as const;
